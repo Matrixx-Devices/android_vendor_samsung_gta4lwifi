@@ -308,13 +308,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lwifi/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Himax_firmware_djn_jdi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware_djn_jdi.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/Himax_firmware_djn_jdi.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware_djn_jdi.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Himax_firmware_hlt_auo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware_hlt_auo.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/Himax_firmware_hlt_auo.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware_hlt_auo.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Himax_firmware_inx_fhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware_inx_fhd.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/Himax_firmware_inx_fhd.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware_inx_fhd.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Himax_firmware_lide_hsd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware_lide_hsd.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/Himax_firmware_lide_hsd.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware_lide_hsd.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Himax_firmware_tianma_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware_tianma_tianma.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/Himax_firmware_tianma_tianma.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware_tianma_tianma.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Himax_firmware_txd_auo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware_txd_auo.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/Himax_firmware_txd_auo.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware_txd_auo.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Himax_firmware_txd_auo_al.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware_txd_auo_al.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/Himax_firmware_txd_auo_al.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware_txd_auo_al.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/Himax_firmware_txd_inx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware_txd_inx.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/Himax_firmware_txd_inx.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware_txd_inx.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/a620_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b00 \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/a620_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b01 \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/a620_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b02 \
@@ -338,10 +346,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/apnv11.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/apnv11.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/focal_ts_fw_lide_hsd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focal_ts_fw_lide_hsd.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/focal_ts_fw_lide_hsd.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focal_ts_fw_lide_hsd.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/focal_ts_fw_tianma_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focal_ts_fw_tianma_tianma.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/focal_ts_fw_tianma_tianma.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focal_ts_fw_tianma_tianma.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/focal_ts_mp_lide_hsd.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/focal_ts_mp_lide_hsd.ini \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/focal_ts_mp_lide_hsd.ini:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focal_ts_mp_lide_hsd.ini \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/focal_ts_mp_tianma_tianma.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/focal_ts_mp_tianma_tianma.ini \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/focal_ts_mp_tianma_tianma.ini:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focal_ts_mp_tianma_tianma.ini \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/focaltech_ts_fw_lide.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_lide.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw_lide.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_lide.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/fs1801.fsm:$(TARGET_COPY_OUT_VENDOR)/firmware/fs1801.fsm \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/hx_criteria_auo.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/hx_criteria_auo.csv \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/hx_criteria_djn.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/hx_criteria_djn.csv \
@@ -355,13 +368,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/novatek_ts_fw_hlt_auo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_hlt_auo.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_hlt_auo.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_hlt_auo.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/novatek_ts_fw_lce_panda.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_lce_panda.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_lce_panda.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_lce_panda.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/novatek_ts_fw_lide_hsd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_lide_hsd.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_lide_hsd.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_lide_hsd.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/novatek_ts_fw_txd_inx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_txd_inx.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_txd_inx.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_txd_inx.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/novatek_ts_mp_hlt_auo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp_hlt_auo.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/novatek_ts_mp_hlt_auo.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp_hlt_auo.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/novatek_ts_mp_lce_panda.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp_lce_panda.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/novatek_ts_mp_lce_panda.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp_lce_panda.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/novatek_ts_mp_lide_hsd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp_lide_hsd.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/novatek_ts_mp_lide_hsd.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp_lide_hsd.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/novatek_ts_mp_txd_inx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp_txd_inx.bin \
+    vendor/samsung/gta4lwifi/proprietary/recovery/root/vendor/firmware/novatek_ts_mp_txd_inx.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp_txd_inx.bin \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/scuba_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b00 \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/scuba_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b01 \
     vendor/samsung/gta4lwifi/proprietary/vendor/firmware/scuba_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b02 \
