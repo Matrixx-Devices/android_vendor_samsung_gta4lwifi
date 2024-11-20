@@ -5,6 +5,12 @@
 soong_namespace {
 	imports: [
 		"vendor/samsung/gta4l-common",
+		"device/samsung/gta4l-common",
+		"hardware/qcom-caf/sm8250",
+		"hardware/qcom-caf/wlan",
+		"hardware/samsung",
+		"vendor/qcom/opensource/dataservices",
+		"vendor/qcom/opensource/display",
 	],
 }
 
